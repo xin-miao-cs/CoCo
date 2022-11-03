@@ -1,0 +1,6 @@
+tqdm==4.63.0
+numpy==1.19.5
+networkx==2.8.4
+torch==1.11.0
+supar==1.1.4
+stanfordcorenlp==3.9.1.1
