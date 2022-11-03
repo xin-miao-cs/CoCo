@@ -15,4 +15,12 @@ Our experiments are based on four datasets: SemEval, TACRED, PubMed, ACE2005. Pl
 * PubMeb: We can't provide the PubMeb dataset directly because of copyright, but you can get the PubMed dataset via FTP as described in https://pubmed.ncbi.nlm.nih.gov/download/.
 * ACE05: We use the preprocessing code from [DyGIE repo](https://github.com/luanyi/DyGIE/tree/master/preprocessing). Please follow the instructions to preprocess the ACE05 datasets.
 
+## Quick Start
+The following commands can be used to genetate counterfactuals by SynCo and SemCo respectively.
+```
+# Run the SynCo moudle
+python SynCo.py
 
+# Run the SemCo moudle
+python SemCo.py
+```
